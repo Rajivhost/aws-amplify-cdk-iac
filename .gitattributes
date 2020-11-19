@@ -1,0 +1,24 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Never modify line endings of our bash scripts
+*.sh -crlf
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.css           text eol=lf
+*.less          text eol=lf
+*.sass          text eol=lf
+*.scss          text eol=lf
+*.html          text eol=lf
+*.ts            text eol=lf
+*.tsx           text eol=lf
+*.js            text eol=lf
+*.json          text eol=lf
+*.lock          text eol=lf
+*.xml           text eol=lf
+
+src/assets/styles/icofont/* linguist-vendored

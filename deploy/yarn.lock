@@ -22,6 +22,19 @@
     "@aws-cdk/cx-api" "1.74.0"
     constructs "^3.2.0"
 
+"@aws-cdk/aws-amplify@^1.74.0":
+  version "1.74.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-amplify/-/aws-amplify-1.74.0.tgz#de750021cacb021a0a8883ea0525847ad2860ad6"
+  integrity sha512-9znMilX1GowtT0eHDqY43zGdo/6OgmfokPRZIplEH5dKGzKHUbuF3e0uXKGhRwiYUbbcD7HT97N3ODkd4cZ9xg==
+  dependencies:
+    "@aws-cdk/aws-codebuild" "1.74.0"
+    "@aws-cdk/aws-codecommit" "1.74.0"
+    "@aws-cdk/aws-iam" "1.74.0"
+    "@aws-cdk/aws-kms" "1.74.0"
+    "@aws-cdk/aws-secretsmanager" "1.74.0"
+    "@aws-cdk/core" "1.74.0"
+    constructs "^3.2.0"
+
 "@aws-cdk/aws-applicationautoscaling@1.74.0":
   version "1.74.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-applicationautoscaling/-/aws-applicationautoscaling-1.74.0.tgz#ad5e946e68bd4094c3236e983d36f67d66135dfc"
@@ -91,6 +104,37 @@
     "@aws-cdk/core" "1.74.0"
     constructs "^3.2.0"
 
+"@aws-cdk/aws-codebuild@1.74.0":
+  version "1.74.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codebuild/-/aws-codebuild-1.74.0.tgz#accfb51ff23e540644c42e79fe466c54f531fb5f"
+  integrity sha512-w+ohCWUotho8zp3+MdKQZuhG63/rAnWrZZDf49uQN04XdafWpiPM4+/hqSsddd5FGr3koEo+hw03XY8Ef+iWeA==
+  dependencies:
+    "@aws-cdk/assets" "1.74.0"
+    "@aws-cdk/aws-cloudwatch" "1.74.0"
+    "@aws-cdk/aws-codecommit" "1.74.0"
+    "@aws-cdk/aws-ec2" "1.74.0"
+    "@aws-cdk/aws-ecr" "1.74.0"
+    "@aws-cdk/aws-ecr-assets" "1.74.0"
+    "@aws-cdk/aws-events" "1.74.0"
+    "@aws-cdk/aws-iam" "1.74.0"
+    "@aws-cdk/aws-kms" "1.74.0"
+    "@aws-cdk/aws-s3" "1.74.0"
+    "@aws-cdk/aws-s3-assets" "1.74.0"
+    "@aws-cdk/aws-secretsmanager" "1.74.0"
+    "@aws-cdk/core" "1.74.0"
+    "@aws-cdk/region-info" "1.74.0"
+    constructs "^3.2.0"
+
+"@aws-cdk/aws-codecommit@1.74.0":
+  version "1.74.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codecommit/-/aws-codecommit-1.74.0.tgz#87df049527e643544c98b646221eefee8bb7fc29"
+  integrity sha512-WtN+zbgFK8bLdQM7qADMiDZJfSHyFcdjChxOYEdjuJFXZ+hF4ooWq4c4Y58Kdx0gmdLN0L8apq0rgp/EawkZUw==
+  dependencies:
+    "@aws-cdk/aws-events" "1.74.0"
+    "@aws-cdk/aws-iam" "1.74.0"
+    "@aws-cdk/core" "1.74.0"
+    constructs "^3.2.0"
+
 "@aws-cdk/aws-codeguruprofiler@1.74.0":
   version "1.74.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-codeguruprofiler/-/aws-codeguruprofiler-1.74.0.tgz#d749688e9edb252ce6fc68efa4f9977f7ba02cb6"
@@ -143,6 +187,30 @@
     "@aws-cdk/core" "1.74.0"
     "@aws-cdk/cx-api" "1.74.0"
     "@aws-cdk/region-info" "1.74.0"
+    constructs "^3.2.0"
+
+"@aws-cdk/aws-ecr-assets@1.74.0":
+  version "1.74.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-ecr-assets/-/aws-ecr-assets-1.74.0.tgz#5a1394ffe5200411823b2dec54d16cfe90e9e881"
+  integrity sha512-6SbU5LU2GIcsQCbmKi8e8kHLmdmvenuR5eAH0rbzf9fjeyYa4S6MDWYt+hzG9cTKX4um9mXZyVz8rVJNqBe94Q==
+  dependencies:
+    "@aws-cdk/assets" "1.74.0"
+    "@aws-cdk/aws-ecr" "1.74.0"
+    "@aws-cdk/aws-iam" "1.74.0"
+    "@aws-cdk/aws-s3" "1.74.0"
+    "@aws-cdk/core" "1.74.0"
+    "@aws-cdk/cx-api" "1.74.0"
+    constructs "^3.2.0"
+    minimatch "^3.0.4"
+
+"@aws-cdk/aws-ecr@1.74.0":
+  version "1.74.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-ecr/-/aws-ecr-1.74.0.tgz#60630df88d68eeb819f9e98605d70216fd0d331c"
+  integrity sha512-8Dm+DLD+AbZCoh3U4l+u6GrlIVjDWwZhxYTWekp7sJE6zfp6uNnS9H+DZCWYY+cQ7haaUKWaLs1aos+hTADJkw==
+  dependencies:
+    "@aws-cdk/aws-events" "1.74.0"
+    "@aws-cdk/aws-iam" "1.74.0"
+    "@aws-cdk/core" "1.74.0"
     constructs "^3.2.0"
 
 "@aws-cdk/aws-efs@1.74.0":

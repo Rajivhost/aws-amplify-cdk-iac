@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+require("source-map-support/register");
+const cdk = require("@aws-cdk/core");
+const aws_amplify_cdk_iac_stack_1 = require("../lib/aws-amplify-cdk-iac-stack");
+const app = new cdk.App();
+new aws_amplify_cdk_iac_stack_1.AwsAmplifyCdkIacStack(app, 'AwsAmplifyCdkIacStack');
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXdzLWFtcGxpZnktY2RrLWlhYy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImF3cy1hbXBsaWZ5LWNkay1pYWMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQ0EsdUNBQXFDO0FBQ3JDLHFDQUFxQztBQUNyQyxnRkFBeUU7QUFFekUsTUFBTSxHQUFHLEdBQUcsSUFBSSxHQUFHLENBQUMsR0FBRyxFQUFFLENBQUM7QUFDMUIsSUFBSSxpREFBcUIsQ0FBQyxHQUFHLEVBQUUsdUJBQXVCLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIiMhL3Vzci9iaW4vZW52IG5vZGVcbmltcG9ydCAnc291cmNlLW1hcC1zdXBwb3J0L3JlZ2lzdGVyJztcbmltcG9ydCAqIGFzIGNkayBmcm9tICdAYXdzLWNkay9jb3JlJztcbmltcG9ydCB7IEF3c0FtcGxpZnlDZGtJYWNTdGFjayB9IGZyb20gJy4uL2xpYi9hd3MtYW1wbGlmeS1jZGstaWFjLXN0YWNrJztcblxuY29uc3QgYXBwID0gbmV3IGNkay5BcHAoKTtcbm5ldyBBd3NBbXBsaWZ5Q2RrSWFjU3RhY2soYXBwLCAnQXdzQW1wbGlmeUNka0lhY1N0YWNrJyk7XG4iXX0=
